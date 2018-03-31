@@ -27,7 +27,7 @@ class String
   end
 
   def count_sentences
-    self.scan(/[?.]/).count
-#binding.pry
+    self.split(/[?.]/).count
+binding.pry
   end
 end
